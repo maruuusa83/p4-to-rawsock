@@ -1,0 +1,11 @@
+[package]
+name = "p4-to-rawsock"
+version = "0.1.0"
+authors = ["Daichi Teruya <tmarusa83@gmail.com>"]
+
+[dependencies]
+libc = "0.2.0"
+hexdump = "0.1.0"
+
+[build-dependencies]
+gcc = "0.3"
